@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#00adf1;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    width: 55dvw;
+    height: 35dvw;
+    border: 1px solid white;
+    margin: 5dvw auto;
+    padding: 2%;
+}
+.all-contacts,.person-detail{
+    width: 40%;
+    height: 100%;
+    padding: 1%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.contacts-list{
+    width: 100%;
+    height: 82%;
+    /* border: 1px solid; */
+    /* padding-inline: 10px; */
+    overflow: scroll;
+}
+.all-contacts b{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.all-contacts p{
+    color: gray;
+    font-size: 14px;
+}
+
+.persondetail-list,.calldisplay-list{
+    width: 100%;
+    height: 90%;
+}
+.icon{
+    display: flex;
+    justify-content:space-between;
+    margin-inline: 10%;
+    margin-top: 1%;
+}
+
+#call-btn{
+    padding-block: 16px;
+    padding-inline: 35px; 
+    border-radius: 30px;
+     border: none;
+     color: white;
+     background-color:green;
+    font-weight: bolder;
+    cursor: pointer;
+}
