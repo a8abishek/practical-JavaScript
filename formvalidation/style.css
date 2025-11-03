@@ -5,14 +5,14 @@
     font-family: sans-serif;
 }
 body{
-    margin: 100px 20%;
+    margin: 95px 23%;
     background: linear-gradient( #c093b3,#632f60);
     height: 75vh;
 }
 .container{
     display: grid;
-    grid-template-columns: 300px 550px;
-    width: 880px;
+    grid-template-columns: 300px 500px;
+    width: 800px;
     border: 1px solid black;
     background-color: white;
     border: none;
@@ -20,7 +20,7 @@ body{
 }
 #image1{
     width: 100%;
-    height:450px;
+    height:100%;
     border-radius: 30px;
 }
 #name{
@@ -47,11 +47,11 @@ body{
 #pa1{
     position: absolute;
     top:10px;
-    left: 10px;
+    left:30px;
 }
 #pa2{
     position: absolute;
-    top: 48px;
+    top: 55px;
     left: 30px;
 }
 #pa3{
@@ -61,16 +61,26 @@ body{
 }
 .form-container{
     background-color: white;
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-inline: 80px;
+    padding-block: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#form-start{
+    font-size: 10px;
+}
+#form-start span{
+    border-top: .1px solid black;
+    padding-top: 1px;
+
 }
 #form-name1{
     font-size: 20px;
     font-weight: bolder;
 }
 #Singup-btn1,#Singup-btn2{
-    padding-block:5px;
-    padding-inline:10px;
+    padding-block:8px;
+    padding-inline:16px;
     font-size: 12px;
     background-color: #5e3998;
     font-weight: bold;
@@ -79,8 +89,48 @@ body{
     border: none;
     margin-block: 10px;
     cursor: pointer;
+    margin-right: 10px;
 }
 #Singup-btn2{
     background-color:#e8e1f4;
     color: black;
+}
+#feild{
+    margin-block: 8px;
+}
+label{
+    font-size: 16px;
+    font-weight:500;
+}
+.input1{
+    width: 90%;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1px;
+    padding-left: 10px;
+    background-color: #f2eff8;
+}
+#feild2{
+    display: flex;
+    margin-left: 3px;
+    column-gap: 5px;
+    margin-bottom: 5px;
+}
+#sumbit-btn{
+    width: 90%;
+    padding-block: 8px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color:#18003e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-block: 2px;
+}
+#para3{
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 5px;
 }
